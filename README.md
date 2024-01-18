@@ -6,4 +6,20 @@ Explore o Clima Tact, uma aplicação web de previsão do tempo alimentada por t
 
 ## Criar App
 
-```npx create-react-app clima-tact```
+`npx create-react-app clima-tact`
+
+## Instalar axios
+
+`npm install axios`
+
+## Instalar xml-js
+
+`npm install xml-js`
+
+A instalação do pacote xml-js foi realizada para auxiliar na conversão do XML recebido na requisição e convertê-lo em JSON.
+
+## Instalar buffer
+
+`npm install buffer`
+
+Foi necessário instalar o pacote 'buffer' para resolver algum conflito interno do React com o xml-js. Erro: Module not found: Error: Can't resolve 'buffer'.
