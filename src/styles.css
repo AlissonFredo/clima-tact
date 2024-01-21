@@ -1,0 +1,26 @@
+:root {
+  --orange-color: #ff9615;
+}
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #2e89b4;
+}
+
+.bg-orange {
+  background: var(--orange-color);
+}
+
+.btn-orange {
+  background: var(--orange-color) !important;
+  transition: opacity 0.3s ease;
+}
+
+.btn-orange:hover {
+  opacity: 0.9 !important;
+}
